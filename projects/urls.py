@@ -9,5 +9,5 @@ router.register('projects', ProjectViewSet, 'pojects')
 
 urlpatterns = [
     path("api/v1/", include(router.urls)),
-    path('docs/',include_docs_urls(title='Task API'))
+    path('docs/',include_docs_urls(title='Projects API'))
 ]
